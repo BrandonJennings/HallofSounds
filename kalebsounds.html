@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script>
+	function Playsound() {
+	document.getElementById("bflat").play();
+	}
+    function Police(){
+    	document.getElementById("talfb").play();
+    }	
+    function Gunshot(){
+    	document.getElementById("alfbt").play();
+    }
+
+	</script>
+		<title></title>
+		<style type="text/css">
+			body{
+				background-image: url('http://voiceofoc.org/wp-content/uploads/archive/editorial/5/2d/52dea990-2085-11e3-8b31-0019bb2963f4/5239ded32a185.image.jpg')
+				
+				
+
+			}
+					div{
+					    color: gold;
+					    background-color: red;
+					}
+				
+		</style>
+
+
+	</head>
+	<body>
+		<audio style="display: none;" id="bflat" controls="">
+		   <source src="Vicious-dog-barking.mp3" type="audio/mpeg">
+		</audio>
+		<button onclick="Playsound()"> Crazy Dog
+		</button>
+
+		<audio style="display: none;" id="talfb" controls="">
+		   <source src="pilocesire_xpequrxx.mp3" type="audio/mpeg">
+		</audio>
+		<button onclick="Police()"> Police Coming
+		</button>
+		<audio style="display: none;" id="alfbt" controls="">
+		   <source src="machine-gun-01.mp3" type="audio/mpeg">
+		</audio>
+		<button onclick="Gunshot()"> Machine Gun Kelly
+		</button>
+	</body>
+</html>
