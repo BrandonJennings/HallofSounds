@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script>
+	function PlaySound() {
+	  document.getElementById("bflat").play();
+	  }
+	  function Playsound() {
+	  document.getElementById("cflat").play();
+	}
+	function Gunshot() {
+	  document.getElementById("dflat").play();
+	}
+	function Airhorn() {
+	  document.getElementById("eflat").play();
+	}
+	function Machine() {
+	  document.getElementById("fflat").play();
+	}
+	</script>
+		<title></title>
+		<style type="text/css">
+	body{
+		background-image: url('https://media.giphy.com/media/lCbm8ExbJSMCc/giphy.gif');
+	}
+	button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	}
+	</style>
+	</head>
+	<body>
+		<audio style="display: none;" id="bflat" controls=""> 
+		  <source src="horse-neigh.mp3" type="audio/mpeg">
+		</audio>
+		<audio style="display: none;" id="cflat" controls="">
+		<source src="Dog-barking-at-night-sound-effect.mp3" type="audio/mpeg">
+		</audio>
+		<audio style="display: none;" id="dflat" controls=""> 
+		  <source src="gun-gunshot-01.mp3" type="audio/mpeg">
+		</audio>
+		<audio style="display: none;" id="eflat" controls=""> 
+		  <source src="Air Horn-SoundBible.com-964603082.mp3" type="audio/mpeg">
+		</audio>
+		<audio style="display: none;" id="fflat" controls=""> 
+		  <source src="Laser_Cannon-Mike_Koenig-797224747.mp3" type="audio/mpeg">
+		  </audio>
+		<button onclick="PlaySound()">
+		Horse neigh
+		</button>
+		<button onclick="Playsound()">
+			Dog barking
+		</button>
+	<button onclick="Gunshot()">
+			Gun shot
+		</button>
+		<button onclick="Airhorn()">
+			Air horn
+		</button>
+		<button onclick="Machine()">
+			Laser Cannon
+		</button>
+	</body>
+</html>
